@@ -53,7 +53,7 @@ export default {
   data() {
     return {
       text: "",
-      selected: "prophetnet",
+      selected: "distilbert",
       min_len: 75,
       max_len: 300,
       options: [
