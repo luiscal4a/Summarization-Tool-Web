@@ -21,7 +21,6 @@
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
 import SummarizationCards from "./components/SummarizationCards.vue";
 import NavBar from "./components/NavBar.vue";
 import TextInput from "./components/TextInput.vue";
@@ -29,7 +28,6 @@ import TextInput from "./components/TextInput.vue";
 export default {
   name: "App",
   components: {
-    HelloWorld,
     SummarizationCards,
     NavBar,
     TextInput,

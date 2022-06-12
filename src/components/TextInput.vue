@@ -53,12 +53,12 @@ export default {
   data() {
     return {
       text: "",
-      selected: "distilbert",
+      selected: "distilbart",
       min_len: 75,
       max_len: 300,
       options: [
-        { item: "prophetnet", name: "Prophetnet whole document summarization" },
-        { item: "distilbert", name: "Distilbert division summarization" },
+        { item: "prophetnet", name: "Prophetnet summarization" },
+        { item: "distilbart", name: "Distilbart summarization" },
       ],
     };
   },
